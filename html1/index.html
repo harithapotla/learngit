@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
 </head>
+
 <body>
     <form action="/" method="post">
         <div>
-<label for= "name">User Name </label>
-<input type="text" id="name">
-</div>
-<div>
-    <label for= "pswd">Password </label>
-<input type="password" id="pswd">
-</div>
-<div>
-    <label for= "register">Register</label>
-<input type="button" id="register">
-</div>
-<div>
-    <label for= "DOB">DOB</label>
-<input type="date" id="DOB">
-</div>
-</form>
+            <label for="name">User Name </label>
+            <input type="text" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="pswd">Password </label>
+            <input type="password" id="pswd">
+        </div>
+        <br>
+        <div>
+            <label for="register">Register</label>
+            <input type="button" name="click me" id="register">
+        </div>
+        <br>
+        <div>
+            <label for="DOB">DOB</label>
+            <input type="date" id="DOB">
+        </div>
+        <br>
+        <div>
+            <label for="Age">Enter your Age </label>
+            <input type="number" name="age" id="Age" min="18" max="35">
+        </div>
+        <br>
+        <div>
+            <label for="gender">gender </label>
+            <input type="radio" name="gender" id="gender">male
+            <input type="radio" name="gender" id="gender">Female
+        </div>
+        <br>
+        <div>
+            <label for="color">Favourite color </label>
+            <input type="color" name="color" id="color">
+        </div>
+    </form>
 </body>
+
 </html>
